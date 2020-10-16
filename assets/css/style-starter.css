@@ -17918,9 +17918,50 @@ time {
     text-align: center;
     align-content: center;
     padding: 50px;
-    font-size: 25px;
+    font-size: 30px;
 }
 
 .card{
     height: 700px;
 }
+
+@media (min-width: 400px) {
+    #card-more-about-me .card{
+        height: 800px;
+    }
+}
+
+@media (min-width: 500px) {
+    #card-more-about-me .card{
+        height: 800px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    #card-more-about-me .card{
+        height: 1000px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    #card-more-about-me .card{
+        height: 800px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    #card-more-about-me .card{
+        height: 700px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    #card-more-about-me .card {
+        height: 700px;
+    }
+}
+
